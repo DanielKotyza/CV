@@ -1,0 +1,50 @@
+body {
+  background-color: green;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin-top: 0;
+}
+
+.top-container {
+  background-color: #9d65c9;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: red;
+  border-style: outset;
+  border-color: darkred;
+  border-width: 10px;
+  margin-top: 10px;
+  height: 200px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.bottom-container {
+  background-color: blue;
+  height: 200px;
+  width: 60%;
+  position: relative;
+  top: 20px;
+  left: 20%;
+}
+
+.top-cloud {
+  position: relative;
+  left: 240px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: auto;
+}
+
+.graduate {
+  text-decoration: underline;
+}

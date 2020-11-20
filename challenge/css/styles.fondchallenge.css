@@ -1,0 +1,199 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 7.625rem;
+  margin: 100px auto 100px auto;
+  font-family: "Sacramento", Verdana, Arial, sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+H3 {
+  font-family: "Encode Sans", sans-serif;
+  color: #11999E;
+  font-size: 1.75rem;
+}
+
+p {
+  font-family: Lobster, sans-serif;
+  padding-bottom: 10px;
+  line-height: 1,8;
+}
+
+hr {
+  background-color: inherit;
+  border-style: none;
+  border-top-style: dashed;
+  border-color: #f07b3f;
+  border-width: 2px;
+  width: 88%;
+}
+
+.colored-image {
+  background-image: linear-gradient(to right, #C800C8, #f6830f), url("https://estaticos.sport.es/resources/jpg/1/5/philippe-coutinho-ansu-fati-leo-messi-celebran-gol-del-barca-temporada-2020-21-1601632824351.jpg");
+  background-blend-mode: overlay;
+  background-size:cover;
+  display: flex;
+  height: 1000px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.top-container {
+  background-color: #f1e189;
+  padding-top: 100px;
+  position: relative;
+  height: 100%;
+}
+
+.middle-container {
+  color: #f6830f;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+  }
+
+.bottom-container {
+  background-color: #b8de6f;
+  color: white;
+  padding-top: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 8.5rem;
+
+
+}
+.bottom-container:hover {
+  background-color: #0e918c;
+}
+
+.top-cloud {
+  position: relative;
+  left: 240px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: auto;
+}
+
+.graduate {
+  text-decoration: underline;
+}
+
+.profilovka {
+  padding-top: 50px;
+  width: 20%;
+  }
+.skills{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  background: inherit;
+  display: flex;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 20px 0 100px 0;
+  text-align: left;
+  line-height: 1,8;
+  display: inline-block;
+
+}
+.skill-row2 {
+  width: 50%;
+  margin: 20px 0 100px 0;
+  text-align: left;
+  line-height: 1,8;
+  display: inline-block;
+  }
+
+.computer {
+  width: 30%;
+  float: left;
+  padding-right: 30px;
+}
+
+.chillies {
+  width: 30%;
+  float: right;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+
+.btn {
+  background: #31e0d1;
+  background-image: -webkit-linear-gradient(top, #31e0d1, #2bb834);
+  background-image: -moz-linear-gradient(top, #31e0d1, #2bb834);
+  background-image: -ms-linear-gradient(top, #31e0d1, #2bb834);
+  background-image: -o-linear-gradient(top, #31e0d1, #2bb834);
+  background-image: linear-gradient(to bottom, #31e0d1, #2bb834);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Encode Sans',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background: #fc3cef;
+  background-image: -webkit-linear-gradient(top, #fc3cef, #3498db);
+  background-image: -moz-linear-gradient(top, #fc3cef, #3498db);
+  background-image: -ms-linear-gradient(top, #fc3cef, #3498db);
+  background-image: -o-linear-gradient(top, #fc3cef, #3498db);
+  background-image: linear-gradient(to bottom, #fc3cef, #3498db);
+  text-decoration: none;
+}
+.ikonky{
+  height: 20px;
+  width: 20px;
+  margin: 0;
+}
+.footer-link {
+    color: #420420;
+    font-weight: bold;
+    margin: 1.8rem;
+    text-decoration: none;
+  }
+  .footer-link:hover {
+      color: white;
+      }
+.top-container:hover {
+      background: #cc0e74;
+    }
+
+    /******Navigation Bar*******/
+    .navbar{
+      padding-bottom: 4.5rem;
+      }
+    .navbar-brand {
+      font-family: "Lobster";
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .nav-item{
+      font-family: "Encode Sans";
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0 18px;
+    }
+    .konecDK{
+      margin: 1.5% 30%;
+    }

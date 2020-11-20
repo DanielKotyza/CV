@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: Sacramento, Verdana, Arial, sans-serif;
+  }
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+}
+
+H3 {
+  font-family: Montserrat, sans-serif;
+}
+
+p {
+  font-family: Lobster, sans-serif;
+}
+
+hr {
+  background-color: inherit;
+  border-style: none;
+  border-top-style: dashed;
+  border-color: #f07b3f;
+  border-width: 1px;
+  width: 33%;
+}
+
+.top-container {
+  background-color: #ff9642;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  color: #f6830f;
+  padding-bottom: 10px;
+}
+
+.bottom-container {
+  background-color: #2d6187;
+  color: white;
+  padding-top: 10px;
+  position: relative;
+  margin-bottom: -16px;
+}
+
+.top-cloud {
+  position: relative;
+  left: 240px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: auto;
+}
+
+.graduate {
+  text-decoration: underline;
+}
+
+.profilovka {
+  padding-top: 50px;
+}
+
+.colored-image {
+        background-image: linear-gradient(to right, #C800C8, #C800C8), url("https://estaticos.sport.es/resources/jpg/1/5/philippe-coutinho-ansu-fati-leo-messi-celebran-gol-del-barca-temporada-2020-21-1601632824351.jpg");
+        background-blend-mode: overlay;
+        background-size:cover;
+        position: relative;
+        width: 100%;
+        height:1000px;
+        }
